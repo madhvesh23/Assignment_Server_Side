@@ -24,11 +24,20 @@ Follow these steps to clone the repository and run the application:
     cd <project-directory>
     Install dependencies:
 
-3. **Ensure you have Node.js version 20 or above installed, then run:**
+3. **Ensure you have created .env file in root directory, then inlcude:**
+   ```bash
+   Recommendation Port,
+    PORT = 5030
+    DB_HOST = 'localhost'
+    DB_USER = 'root'  
+    DB_PASS = ''
+    DB_NAME=book_inventory
+
+4. **Ensure you have Node.js version 20 or above installed, then run:**
    ```bash
     npm install
 
-4. **Run the Application**
+5. **Run the Application**
 
     ```bash
     npm run start
