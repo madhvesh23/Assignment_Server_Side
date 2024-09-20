@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "target": "ES2020",                     // Target ECMAScript version
+      "module": "commonjs",                   // Use commonJS module system
+      "rootDir": "./src",                     // Source folder
+      "outDir": "./dist",                     // Output folder for compiled JavaScript
+      "strict": true,                         // Enable all strict type-checking options
+      "esModuleInterop": true,                // Enable compatibility between CommonJS and ES modules
+      "forceConsistentCasingInFileNames": true, // Ensure consistent file name casing
+      "skipLibCheck": true,                   // Skip type checking of declaration files
+      "moduleResolution": "node",             // Resolve modules as Node does
+      "resolveJsonModule": true,              // Allows importing JSON modules
+      "noImplicitAny": true,                  // Warn on expressions and declarations with `any` type
+      "noUnusedLocals": true,                 // Report errors on unused local variables
+      "noUnusedParameters": true,             // Report errors on unused function parameters
+      "noImplicitReturns": true,              // Ensure functions always return a value
+      "noFallthroughCasesInSwitch": true      // Ensure all switch cases are handled
+    },
+    "include": ["./**/*.ts"],               // Include all TypeScript files under `src` directory
+    "exclude": ["node_modules"]               // Exclude the `node_modules` directory
+  }
+  
